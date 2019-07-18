@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>首都示范大学附属中学初一新生问卷调查系统</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <!-- CSS -->
+        <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=PT+Sans:400,700'>
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="assets/css/supersized.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!--[if lt IE 9]>
+            <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <script>
+        function a(){
+        	  alert("请将下面的提示框，拍照或解图，进行回传，谢谢！")
+              var name = document.getElementById("name").value;
+              var q1 = document.getElementById("q1").value;
+              var q2 = document.getElementById("q2").value;
+              var q3 = document.getElementById("q3").value;
+              var q4 = document.getElementById("q4").value;
+              var q5 = document.getElementById("q5").value;
+              var q6 = document.getElementById("q6").value; 
+              var q7 = document.getElementById("q7").value;
+              alert(name+"的调查报告"+"\r\n"+"q1:"+q1+"\r\nq2:"+q2+"\r\nq3:"+q3+"\r\nq4:"+q4+"\r\nq5:"+q5+"\r\nq6:"+q6+"\r\nq7:"+q7+"\r\n感谢您接受调查");	
+        }
+      
+        	
+        </script>
+    </head>
+    <body>
+        <div class="page-container">
+            <h1>调查问卷：</h1>
+            <form>
+             <b style="color:blue">您的姓名？</b>
+                <input type="text" class="username" id = "name" placeholder="请输入">
+                <br><br>
+                <b style="color:blue">1.初中数学和小学数学有什么不同?</b>
+                <input type="text" class="username" id = "q1" placeholder="第一题答案：">
+                <br><br>
+                <b style="color:blue">2.您认为从小学数学到初中数学需要哪些准备和调整?</b>
+                <input type="text"  class="username" id = "q2" placeholder="第二题答案">
+                <br><br>
+                <b style="color:blue">3.您学过奥数吗？觉得有帮助吗?</b>
+                <input type="text"  class="username" id="q3"  placeholder="第三题答案">
+                <br><br>
+                 <b style="color:blue">4.在初一数学学习中遇到过哪些困难又是怎样克服的?</b>
+                <input type="text"  class="username" id="q4"  placeholder="第四题答案">
+ 				<br><br>
+                 <b style="color:blue">5.在初一数学学习中遇到过哪些有趣或记忆深刻的事?</b>
+                <input type="text"  class="username" id="q5"  placeholder="第五题答案">
+                <br><br>
+                 <b style="color:blue">6.对我们初一新生有什么期待或建议吗?</b>
+                <input type="text"  class="username" id="q6"  placeholder="第六题答案">
+                <br><br>
+                <b style="color:blue">7.在学校里您最喜欢哪一门课?</b>
+                <input type="text"  class="username" id="q7"  placeholder="第七题答案">
+                <br><br>
+                <button type="button" onclick = "a()">提交</button>
+                <div class="error"><span>+</span></div>
+            </form>
+            <div class="connect">
+                &copy;2007-2019 wexapple.com
+            </div>
+        </div>
+        <!-- Javascript -->
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <script src="assets/js/supersized.3.2.7.min.js"></script>
+        <script src="assets/js/supersized-init.js"></script>
+        <script src="assets/js/scripts.js"></script>
+    </body>
+</html>
